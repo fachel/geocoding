@@ -1,0 +1,11 @@
+create table exceptions(
+	id serial PRIMARY KEY,
+	class_ char(100),
+	message_ char(100)
+);
+
+create table requests(
+	id serial PRIMARY KEY,
+	request char(200),
+	answer char(200)
+)
